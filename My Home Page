@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="<$BlogLanguageDirection$>">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="aslifemedia, job, news,">
+    <meta name="author" content="as-life-media">
+    <link rel="stylesheet" href="style.css">
+    <title>My Home Page</title>
+
+<style type='text/css>
+/* -----------------------------------------------
+Blogger Template Style
+Name:     AS - Life Official
+Date:     12 Nov 2004
+----------------------------------------------- */
+   *{
+    padding: ;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+/*----------- Start Menuber ------------*/
+.header{}
+
+.menuber{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/amazo-company-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    position: sticky;
+    top: 0px;
+
+}
+
+.logo{
+    color: white;
+    border: 3px solid whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: red;
+    border: 3px solid whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover{
+    background-color: #FF00FF;
+    font-weight: bold;
+}
+
+.sing-up-button button{
+    color: white;
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+    background-color: black;
+    box-shadow: 3px 3px 3px 1px black;
+    border-radius: 30px;
+    font-weight: bold;
+    
+
+}
+
+.sing-up-button button:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+/*----- Menuber End -----*/
+
+
+/* -----Start Coca Cola Job----- */
+.cards{
+
+}
+
+.coca-cola{
+    width: 310px;
+    height: 350px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 30px;
+    
+}
+
+.coca-cola a img{
+    display: block;
+   width: 304px;
+    border-radius: 30px 30px 0px 0px;
+   
+}
+
+.coca-cola-title{
+    text-align: center;
+
+}
+.coca-cola-title h2{}
+
+.coca-cola-des{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 3px solid black;
+    border-radius: 30px;
+
+}
+
+
+.coca-cola-button{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+
+.coca-cola-button a{
+    text-decoration: none;
+    border: 5px solid whitesmoke;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    animation-name: coca-coca-button;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+.coca-cola-button a:hover{
+    background-color: #228B22;
+    color: black;
+}
+
+
+
+@keyframes coca-coca-button{
+    0% {
+        
+
+    }
+    25% {
+        
+    }
+    50% {
+        border-color: black;
+        background-color: #228B22;
+
+    }
+    75% {
+        background-color: ;
+
+    }
+    100% {
+        
+    }
+}
+
+
+/* -----Start Footer Section----- */
+
+footer{}
+
+.footer-section{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    margin-top: 20px;
+    display: block;
+}
+
+.footer-logo{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    border: 3px solid black;
+
+}
+
+.footer-logo a{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.contact-list{
+
+}
+
+.contact-list ul{
+    width: 100%;
+    position: absolute;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 230px;
+
+}
+
+.contact-list ul a{
+    position: relative;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 30px;
+    color: black;
+    animation-name: footer-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.contact-list ul a:hover{
+    background-color: #FF00FF;
+    color: whitesmoke;
+}
+
+@keyframes footer-animation{
+
+    0% {
+        border-color: black;
+    }
+
+}
+
+.copyright-author{
+    position: absolute;
+    margin-top: 270px;
+    padding-left: 20px
+}
+
+
+.copyright{
+    text-align: ;
+
+}
+
+.copyright a{
+    color: black;
+    font-weight: bold;
+    font-family: Rowdies;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.copyright a:hover{
+    color: black;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+/* -----Footer Section End----- */
+  
+  </style>
+</head>
+<body>
+    
+    
+    <!--Start Menuber-->
+    <div class="header">
+        <div class="menuber">
+            <nav>
+            <div class="logo">
+                <a href="#"><h1>AS Media</a></h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Job</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="sing-up-button">
+                <button type="button">log in</button>
+                <button type="button">Sing Up</button>
+            </div>
+        </nav>
+        </div>
+
+
+    </div>
+<!--Menuber End-->
+
+<!--Start Cards Style-->
+    <div class="cards">
+        <div class="coca-cola">
+            <div class="coca-cola-image">
+                <a href="#"><img src="images/coca cola company-1.jpg"></a>
+            </div>
+
+            <div class="coca-cola-title">
+                <h2>Coca Cola Job</h2>
+            </div>
+
+            <div class="coca-cola-des">
+                <p>Start Career Today Sign up and find Coca Cola jobs!</p>
+            </div>
+
+            <div class="coca-cola-button">
+                <a href="#">Apply Now</a>
+            </div>
+            
+        </div>
+
+
+    </div>
+<!--End Cards Style-->
+
+<!--Start Footer Section-->
+    <footer>
+        <div class="footer-section">
+            <div class="footer-logo">
+                <a href="#">AS Life Media</a>
+            </div>
+
+            <div class="copyright-author">
+                <div class="copyright">
+                   <P>Copyright © 2025 All Right Reserved By | <a href="#">AS - Life Media</a></P>
+                </div>
+            </div>
+
+            <div class="contact-menu">
+                <div class="contact-list">
+                    <ul>
+                        <a href="#">About</a>
+                        <a href="#">Service</a>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">Contact US</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--End Footer Section-->
+
+</body>
+</html>

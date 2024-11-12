@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="aslifemedia, job, news,">
+    <meta name="author" content="as-life-media">
+    <link rel="stylesheet" href="style.css">
+    <link rel="images" href="C:\Users\AS - Life Official\Desktop\HTML">
+    <title>My Home Page</title>
+
+<!-----------------------------------
+    Blogger Template Style
+    Name:   AS Media
+    License: Free
+    version: 1.0
+    author: md ajijul haque
+  ----------------------------------->
+    
+</head>
+<body>
+    
+    <b:skin>
+    <!--Start Menuber-->
+    <div class="header">
+        <div class="menuber">
+            <nav>
+            <div class="logo">
+                <a href="#"><h1>AS Media</a></h1>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Job</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="sing-up-button">
+                <button type="button">log in</button>
+                <button type="button">Sing Up</button>
+            </div>
+        </nav>
+        </div>
+    </b:skin>
+
+    </div>
+<!--Menuber End-->
+
+<b:skin>
+<!-- Start Post Feed -->
+<div class="post-feed">
+<!--Start Cards Style-->
+    <div class="cards">
+        <div class="coca-cola">
+            <div class="coca-cola-image">
+                <a href="#"><img src="images/coca cola company-1.jpg"></a>
+            </div>
+
+            <div class="coca-cola-title">
+                <h2>Coca Cola Job</h2>
+            </div>
+
+            <div class="coca-cola-des">
+                <p>Start Career Today Sign up and find Coca Cola jobs!</p>
+            </div>
+
+            <div class="coca-cola-button">
+                <a href="#">Apply Now</a>
+            </div>
+            
+        </div>
+
+
+    </div>
+<!--End Cards Style-->
+</div>
+</b:skin>
+<!-- End Post Feed -->
+
+<b:skin>
+<!--Start Footer Section-->
+    <footer>
+        <div class="footer-section">
+            <div class="footer-logo">
+                <a href="#">AS Life Media</a>
+            </div>
+
+            <div class="copyright-author">
+                <div class="copyright">
+                   <P>Copyright © 2025 All Right Reserved By | <a href="#">AS - Life Media</a></P>
+                </div>
+            </div>
+
+            <div class="contact-menu">
+                <div class="contact-list">
+                    <ul>
+                        <a href="#">About</a>
+                        <a href="#">Service</a>
+                        <a href="#">Disclaimer</a>
+                        <a href="#">Contact US</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--End Footer Section-->
+    </b:skin>
+
+</body>
+</html>
